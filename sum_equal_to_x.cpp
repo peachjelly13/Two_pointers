@@ -24,7 +24,7 @@ bool sum_equal_to_x(vector<int>&arr,int n,int x){
 }
 int main(){
 	vector<int>v = {1,2,3,4,5,6,7,8,9,10};
-	bool val = sum_equal_to_x(v,v.size(),5);
+	bool val = sum_equal_to_x(v,v.size(),30);
 	cout << val;
 
 }
